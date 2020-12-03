@@ -17,8 +17,9 @@ inputs:
     description: 'epoch'
     required: false
     default: 0
-icon: 'bar-chart'
-color: 'yellow'
+branding:
+  icon: 'bar-chart'
+  color: 'yellow'
 outputs:
   time: # id of output
     id: 'The ID number generated.'
