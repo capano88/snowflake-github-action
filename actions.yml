@@ -1,0 +1,26 @@
+name: 'ID Generator'
+description: 'A ID Generator based on Twitter's Snowflake project.'
+inputs:
+  datacenter:
+    description: 'datacenter identifier. It can have values from 0 to 31.'
+    required: false
+    default: 0
+  worker:
+    description: 'worker identifier. It can have values from 0 to 31.'
+    required: false
+    default: 0
+  id:
+    description: 'generator identifier. It can have values from 0 to 1023.'
+    required: false
+    default: 0
+  epoch:
+    description: 'epoch'
+    required: false
+    default: 0
+  
+outputs:
+  time: # id of output
+    id: 'The ID number generated.'
+runs:
+  using: 'node12'
+  main: 'index.js'
