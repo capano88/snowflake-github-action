@@ -1,5 +1,5 @@
 name: 'ID Generator'
-description: 'A ID Generator based on Twitter's Snowflake project.'
+description: 'A ID Generator based on Twitters Snowflake project.'
 inputs:
   datacenter:
     description: 'datacenter identifier. It can have values from 0 to 31.'
