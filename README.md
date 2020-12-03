@@ -27,6 +27,8 @@ Epoch to use in generation of the snowflake
 The twitter snowflake, in decimal form.
 ## Example usage
 
+```
 uses: gubareve/snowflake-github-action@v1.2
 with:
   worker: 3
+```
